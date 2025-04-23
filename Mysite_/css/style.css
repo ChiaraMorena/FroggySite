@@ -51,6 +51,10 @@ background: url('/img/green.jpg');
 height: 80px;
 position: fixed;
 margin-top: 30px;
+top: 0;
+z-index: 9999;
+padding: 20px 0;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 #nav { width: 600px; float: right; margin-top: 20px; }
 #logo a { color: #cc33ff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
